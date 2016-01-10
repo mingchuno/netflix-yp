@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Netflix 黃頁</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!-- cite -->
+    <!-- http://whatsonnetflix.com/netflix-hacks/the-netflix-id-bible-every-category-on-netflix/ -->
+  </head>
+  <body>
+    <div class="row">
+    <div class="col-md-6" style="float: none; margin-left: auto; margin-right: auto;">
+      <table class="table table-hover table-striped">
+        <tr>
+          <th>英</th>
+          <th>中</th>
+        </tr>
+        <tr id="1365">
+          <td>Action & Adventure</td>
+          <td>冒險動作片</td>
+        </tr>
+        <tr id="77232">
+          <td>Asian Action Movies</td>
+          <td>Asian Action Movies</td>
+        </tr>
+        <tr id="46576">
+          <td>Classic Action & Adventure</td>
+          <td>Classic Action & Adventure</td>
+        </tr>
+        <tr id="43040">
+          <td>Action Comedies</td>
+          <td>Action Comedies</td>
+        </tr>
+        <tr id="43048">
+          <td>Action Thrillers</td>
+          <td>Action Thrillers</td>
+        </tr>
+        <tr id="8985">
+          <td>Martial Arts Movies</td>
+          <td>Martial Arts Movies</td>
+        </tr>
+        <tr id="2125">
+          <td>Military Action & Adventure</td>
+          <td>Military Action & Adventure</td>
+        </tr>
+        <tr id="7442">
+          <td>Adventures</td>
+          <td>Adventures</td>
+        </tr>
+        <tr id="10118">
+          <td>Comic Book and Superhero Movies</td>
+          <td>Comic Book and Superhero Movies</td>
+        </tr>
+        <tr id="7700">
+          <td>Westerns</td>
+          <td>Westerns</td>
+        </tr>
+        <tr id="10702">
+          <td>Spy Action & Adventure</td>
+          <td>Spy Action & Adventure</td>
+        </tr>
+        <tr id="9584">
+          <td>Crime Action & Adventure</td>
+          <td>Crime Action & Adventure</td>
+        </tr>
+        <tr id="11828">
+          <td>Foreign Action & Adventure</td>
+          <td>Foreign Action & Adventure</td>
+        </tr>
+        <tr id="7424">
+          <td>Anime</td>
+          <td>Anime</td>
+        </tr>
+        <tr id="11881">
+          <td>Adult Animation</td>
+          <td>Adult Animation</td>
+        </tr>
+        <tr id="2653">
+          <td>Anime Action</td>
+          <td>Anime Action</td>
+        </tr>
+        <tr id="9302">
+          <td>Anime Comedies</td>
+          <td>Anime Comedies</td>
+        </tr>
+        <tr id="452">
+          <td>Anime Dramas</td>
+          <td>Anime Dramas</td>
+        </tr>
+        <tr id="3063">
+          <td>Anime Features</td>
+          <td>Anime Features</td>
+        </tr>
+        <tr id="2729">
+          <td>Anime Sci-Fi</td>
+          <td>Anime Sci-Fi</td>
+        </tr>
+        <tr id="10695">
+          <td>Anime Horror</td>
+          <td>Anime Horror</td>
+        </tr>
+        <tr id="11146">
+          <td>Anime Fantasy</td>
+          <td>Anime Fantasy</td>
+        </tr>
+        <tr id="6721">
+          <td>Anime Series</td>
+          <td>Anime Series</td>
+        </tr>
+        <tr id="452">
+          <td>Children & Family Movies</td>
+          <td>Children & Family Movies</td>
+        </tr>
+        <tr id="6796">
+          <td>Movies for ages 0 to 2</td>
+          <td>Movies for ages 0 to 2</td>
+        </tr>
+        <tr id="6218">
+          <td>Movies for ages 2 to 4</td>
+          <td>Movies for ages 2 to 4</td>
+        </tr>
+        <tr id="5455">
+          <td>Movies for ages 5 to 7</td>
+          <td>Movies for ages 5 to 7</td>
+        </tr>
+        <tr id="561">
+          <td>Movies for ages 8 to 10</td>
+          <td>Movies for ages 8 to 10</td>
+        </tr>
+        <tr id="6962">
+          <td>Movies for ages 11 to 12</td>
+          <td>Movies for ages 11 to 12</td>
+        </tr>
+        <tr id="10659">
+          <td>Education for Kids</td>
+          <td>Education for Kids</td>
+        </tr>
+        <tr id="67673">
+          <td>Disney</td>
+          <td>Disney</td>
+        </tr>
+        <tr id="10056">
+          <td>Movies based on children’s books</td>
+          <td>Movies based on children’s books</td>
+        </tr>
+        <tr id="51056">
+          <td>Family Features</td>
+          <td>Family Features</td>
+        </tr>
+        <tr id="11177">
+          <td>TV Cartoons</td>
+          <td>TV Cartoons</td>
+        </tr>
+        <tr id="27346">
+          <td>Kids' TV</td>
+          <td>Kids' TV</td>
+        </tr>
+        <tr id="52843">
+          <td>Kids Music</td>
+          <td>Kids Music</td>
+        </tr>
+        <tr id="5507">
+          <td>Animal Tales</td>
+          <td>Animal Tales</td>
+        </tr>
+        <tr id="31574">
+          <td>Classic Movies</td>
+          <td>Classic Movies</td>
+        </tr>
+        <tr id="31694">
+          <td>Classic Comedies</td>
+          <td>Classic Comedies</td>
+        </tr>
+        <tr id="29809">
+          <td>Classic Dramas</td>
+          <td>Classic Dramas</td>
+        </tr>
+        <tr id="67673">
+          <td>Disney</td>
+          <td>Disney</td>
+        </tr>
+        <tr id="47147">
+          <td>Classic Sci-Fi & Fantasy</td>
+          <td>Classic Sci-Fi & Fantasy</td>
+        </tr>
+        <tr id="46588">
+          <td>Classic Thrillers</td>
+          <td>Classic Thrillers</td>
+        </tr>
+        <tr id="7687">
+          <td>Film Noir</td>
+          <td>Film Noir</td>
+        </tr>
+        <tr id="48744">
+          <td>Classic War Movies</td>
+          <td>Classic War Movies</td>
+        </tr>
+        <tr id="52858">
+          <td>Epics</td>
+          <td>Epics</td>
+        </tr>
+        <tr id="32473">
+          <td>Classic Foreign Movies</td>
+          <td>Classic Foreign Movies</td>
+        </tr>
+        <tr id="53310">
+          <td>Silent Movies</td>
+          <td>Silent Movies</td>
+        </tr>
+        <tr id="47465">
+          <td>Classic Westerns</td>
+          <td>Classic Westerns</td>
+        </tr>
+        <tr id="6548">
+          <td>Comedies</td>
+          <td>Comedies</td>
+        </tr>
+        <tr id="869">
+          <td>Dark Comedies</td>
+          <td>Dark Comedies</td>
+        </tr>
+        <tr id="4426">
+          <td>Foreign Comedies</td>
+          <td>Foreign Comedies</td>
+        </tr>
+        <tr id="1402">
+          <td>Late Night Comedies</td>
+          <td>Late Night Comedies</td>
+        </tr>
+        <tr id="26">
+          <td>Mockumentaries</td>
+          <td>Mockumentaries</td>
+        </tr>
+        <tr id="2700">
+          <td>Political Comedies</td>
+          <td>Political Comedies</td>
+        </tr>
+        <tr id="9702">
+          <td>Screwball Comedies</td>
+          <td>Screwball Comedies</td>
+        </tr>
+        <tr id="5286">
+          <td>Sports Comedies</td>
+          <td>Sports Comedies</td>
+        </tr>
+        <tr id="11559">
+          <td>Stand-up Comedy</td>
+          <td>Stand-up Comedy</td>
+        </tr>
+        <tr id="3519">
+          <td>Teen Comedies</td>
+          <td>Teen Comedies</td>
+        </tr>
+        <tr id="4922">
+          <td>Satires</td>
+          <td>Satires</td>
+        </tr>
+        <tr id="5475">
+          <td>Romantic Comedies</td>
+          <td>Romantic Comedies</td>
+        </tr>
+        <tr id="10256">
+          <td>Slapstick Comedies</td>
+          <td>Slapstick Comedies</td>
+        </tr>
+        <tr id="7627">
+          <td>Cult Movies</td>
+          <td>Cult Movies</td>
+        </tr>
+        <tr id="8195">
+          <td>B-Horror Movies</td>
+          <td>B-Horror Movies</td>
+        </tr>
+        <tr id="1252">
+          <td>Campy Movies</td>
+          <td>Campy Movies</td>
+        </tr>
+        <tr id="10944">
+          <td>Cult Horror Movies</td>
+          <td>Cult Horror Movies</td>
+        </tr>
+        <tr id="4734">
+          <td>Cult Sci-Fi & Fantasy</td>
+          <td>Cult Sci-Fi & Fantasy</td>
+        </tr>
+        <tr id="9434">
+          <td>Cult Comedies</td>
+          <td>Cult Comedies</td>
+        </tr>
+        <tr id="4195">
+          <td>Independent Comedies</td>
+          <td>Independent Comedies</td>
+        </tr>
+        <tr id="6839">
+          <td>Documentaries</td>
+          <td>Documentaries</td>
+        </tr>
+        <tr id="3652">
+          <td>Biographical Documentaries</td>
+          <td>Biographical Documentaries</td>
+        </tr>
+        <tr id="9875">
+          <td>Crime Documentaries</td>
+          <td>Crime Documentaries</td>
+        </tr>
+        <tr id="5161">
+          <td>Foreign Documentaries</td>
+          <td>Foreign Documentaries</td>
+        </tr>
+        <tr id="5349">
+          <td>Historical Documentaries</td>
+          <td>Historical Documentaries</td>
+        </tr>
+        <tr id="4006">
+          <td>Military Documentaries</td>
+          <td>Military Documentaries</td>
+        </tr>
+        <tr id="180">
+          <td>Sports Documentaries</td>
+          <td>Sports Documentaries</td>
+        </tr>
+        <tr id="90361">
+          <td>Music & Concert Documentaries</td>
+          <td>Music & Concert Documentaries</td>
+        </tr>
+        <tr id="1159">
+          <td>Travel & Adventure Documentaries</td>
+          <td>Travel & Adventure Documentaries</td>
+        </tr>
+        <tr id="7018">
+          <td>Political Documentaries</td>
+          <td>Political Documentaries</td>
+        </tr>
+        <tr id="10005">
+          <td>Religious Documentaries</td>
+          <td>Religious Documentaries</td>
+        </tr>
+        <tr id="2595">
+          <td>Science & Nature Documentaries</td>
+          <td>Science & Nature Documentaries</td>
+        </tr>
+        <tr id="3675">
+          <td>Social & Cultural Documentaries</td>
+          <td>Social & Cultural Documentaries</td>
+        </tr>
+        <tr id="5763">
+          <td>Dramas</td>
+          <td>Dramas</td>
+        </tr>
+        <tr id="3179">
+          <td>Biographical Dramas</td>
+          <td>Biographical Dramas</td>
+        </tr>
+        <tr id="29809">
+          <td>Classic Dramas</td>
+          <td>Classic Dramas</td>
+        </tr>
+        <tr id="528582748">
+          <td>Courtroom Dramas</td>
+          <td>Courtroom Dramas</td>
+        </tr>
+        <tr id="6889">
+          <td>Crime Dramas</td>
+          <td>Crime Dramas</td>
+        </tr>
+        <tr id="4961">
+          <td>Dramas based on Books</td>
+          <td>Dramas based on Books</td>
+        </tr>
+        <tr id="3653">
+          <td>Dramas based on real life</td>
+          <td>Dramas based on real life</td>
+        </tr>
+        <tr id="6384">
+          <td>Tearjerkers</td>
+          <td>Tearjerkers</td>
+        </tr>
+        <tr id="2150">
+          <td>Foreign Dramas</td>
+          <td>Foreign Dramas</td>
+        </tr>
+        <tr id="7243">
+          <td>Sports Dramas</td>
+          <td>Sports Dramas</td>
+        </tr>
+        <tr id="500">
+          <td>Gay & Lesbian Dramas</td>
+          <td>Gay & Lesbian Dramas</td>
+        </tr>
+        <tr id="384">
+          <td>Independent Dramas</td>
+          <td>Independent Dramas</td>
+        </tr>
+        <tr id="9299">
+          <td>Teen Dramas</td>
+          <td>Teen Dramas</td>
+        </tr>
+        <tr id="11">
+          <td>Military Dramas</td>
+          <td>Military Dramas</td>
+        </tr>
+        <tr id="12123">
+          <td>Period Pieces</td>
+          <td>Period Pieces</td>
+        </tr>
+        <tr id="6616">
+          <td>Political Dramas</td>
+          <td>Political Dramas</td>
+        </tr>
+        <tr id="1255">
+          <td>Romantic Dramas</td>
+          <td>Romantic Dramas</td>
+        </tr>
+        <tr id="5012">
+          <td>Showbiz Dramas</td>
+          <td>Showbiz Dramas</td>
+        </tr>
+        <tr id="3947">
+          <td>Social Issue Dramas</td>
+          <td>Social Issue Dramas</td>
+        </tr>
+        <tr id="26835">
+          <td>Faith & Spirituality</td>
+          <td>Faith & Spirituality</td>
+        </tr>
+        <tr id="52804">
+          <td>Faith & Spirituality Movies</td>
+          <td>Faith & Spirituality Movies</td>
+        </tr>
+        <tr id="2760">
+          <td>Spiritual Documentaries</td>
+          <td>Spiritual Documentaries</td>
+        </tr>
+        <tr id="751423">
+          <td>Kids Faith & Spirituality</td>
+          <td>Kids Faith & Spirituality</td>
+        </tr>
+        <tr id="384">
+          <td>Independent Dramas</td>
+          <td>Independent Dramas</td>
+        </tr>
+        <tr id="7462">
+          <td>Foreign Movie</td>
+          <td>Foreign Movie</td>
+        </tr>  
+        <tr id="29764">
+          <td>Art House Movie</td>
+          <td>Art House Movie</td>
+        </tr>  
+        <tr id="11828">
+          <td>Foreign Action & Adventur</td>
+          <td>Foreign Action & Adventur</td>
+        </tr>  
+        <tr id="32473">
+          <td>Classic Foreign Movie</td>
+          <td>Classic Foreign Movie</td>
+        </tr>  
+        <tr id="4426">
+          <td>Foreign Comedie</td>
+          <td>Foreign Comedie</td>
+        </tr>  
+        <tr id="5161">
+          <td>Foreign Documentarie</td>
+          <td>Foreign Documentarie</td>
+        </tr>  
+        <tr id="2150">
+          <td>Foreign Drama</td>
+          <td>Foreign Drama</td>
+        </tr>  
+        <tr id="8243">
+          <td>Foreign Gay & Lesbian Movie</td>
+          <td>Foreign Gay & Lesbian Movie</td>
+        </tr>  
+        <tr id="8654">
+          <td>Foreign Horror Movie</td>
+          <td>Foreign Horror Movie</td>
+        </tr>  
+        <tr id="6485">
+          <td>Foreign Sci-Fi & Fantas</td>
+          <td>Foreign Sci-Fi & Fantas</td>
+        </tr>  
+        <tr id="10306">
+          <td>Foreign Thriller</td>
+          <td>Foreign Thriller</td>
+        </tr>  
+        <tr id="7153">
+          <td>Romantic Foreign Movie</td>
+          <td>Romantic Foreign Movie</td>
+        </tr>  
+        <tr id="3761">
+          <td>African Movie</td>
+          <td>African Movie</td>
+        </tr>  
+        <tr id="5230">
+          <td>Australian Movie</td>
+          <td>Australian Movie</td>
+        </tr>  
+        <tr id="262">
+          <td>Belgian Movie</td>
+          <td>Belgian Movie</td>
+        </tr>  
+        <tr id="5685">
+          <td>Korean Movie</td>
+          <td>Korean Movie</td>
+        </tr>  
+        <tr id="1613">
+          <td>Latin American Movie</td>
+          <td>Latin American Movie</td>
+        </tr>  
+        <tr id="5875">
+          <td>Middle Eastern Movie</td>
+          <td>Middle Eastern Movie</td>
+        </tr>  
+        <tr id="63782">
+          <td>New Zealand Movie</td>
+          <td>New Zealand Movie</td>
+        </tr>  
+        <tr id="11567">
+          <td>Russia</td>
+          <td>Russia</td>
+        </tr>  
+        <tr id="9292">
+          <td>Scandinavian Movie</td>
+          <td>Scandinavian Movie</td>
+        </tr>  
+        <tr id="9196">
+          <td>Southeast Asian Movie</td>
+          <td>Southeast Asian Movie</td>
+        </tr>  
+        <tr id="58741">
+          <td>Spanish Movie</td>
+          <td>Spanish Movie</td>
+        </tr>  
+        <tr id="61115">
+          <td>Greek Movie</td>
+          <td>Greek Movie</td>
+        </tr>  
+        <tr id="58886">
+          <td>German Movie</td>
+          <td>German Movie</td>
+        </tr>  
+        <tr id="58807">
+          <td>French Movie</td>
+          <td>French Movie</td>
+        </tr>  
+        <tr id="5254">
+          <td>Eastern European Movie</td>
+          <td>Eastern European Movie</td>
+        </tr>  
+        <tr id="10606">
+          <td>Dutch Movie</td>
+          <td>Dutch Movie</td>
+        </tr>  
+        <tr id="58750">
+          <td>Irish Movie</td>
+          <td>Irish Movie</td>
+        </tr>  
+        <tr id="10398">
+          <td>Japanese Movie</td>
+          <td>Japanese Movie</td>
+        </tr>  
+        <tr id="8221">
+          <td>Italian Movie</td>
+          <td>Italian Movie</td>
+        </tr>  
+        <tr id="10463">
+          <td>Indian Movie</td>
+          <td>Indian Movie</td>
+        </tr>  
+        <tr id="3960">
+          <td>Chinese Movie</td>
+          <td>Chinese Movie</td>
+        </tr>  
+        <tr id="10757">
+          <td>British Movie</td>
+          <td>British Movie</td>
+        </tr>  
+        <tr id="8711">
+          <td>Horror Movie</td>
+          <td>Horror Movie</td>
+        </tr>  
+        <tr id="8195">
+          <td>B-Horror Movie</td>
+          <td>B-Horror Movie</td>
+        </tr>  
+        <tr id="6895">
+          <td>Creature Feature</td>
+          <td>Creature Feature</td>
+        </tr>  
+        <tr id="10944">
+          <td>Cult Horror Movie</td>
+          <td>Cult Horror Movie</td>
+        </tr>  
+        <tr id="45028">
+          <td>Deep Sea Horror Movie</td>
+          <td>Deep Sea Horror Movie</td>
+        </tr>  
+        <tr id="8654">
+          <td>Foreign Horror Movie</td>
+          <td>Foreign Horror Movie</td>
+        </tr>  
+        <tr id="89585">
+          <td>Horror Comed</td>
+          <td>Horror Comed</td>
+        </tr>  
+        <tr id="947">
+          <td>Monster Movie</td>
+          <td>Monster Movie</td>
+        </tr>  
+        <tr id="8646">
+          <td>Slasher and Serial Killer Movie</td>
+          <td>Slasher and Serial Killer Movie</td>
+        </tr>  
+        <tr id="42023">
+          <td>Supernatural Horror Movie</td>
+          <td>Supernatural Horror Movie</td>
+        </tr>  
+        <tr id="52147">
+          <td>Teen Scream</td>
+          <td>Teen Scream</td>
+        </tr>  
+        <tr id="75804">
+          <td>Vampire Horror Movie</td>
+          <td>Vampire Horror Movie</td>
+        </tr>  
+        <tr id="75930">
+          <td>Werewolf Horror Movie</td>
+          <td>Werewolf Horror Movie</td>
+        </tr>  
+        <tr id="75405">
+          <td>Zombie Horror Movie</td>
+          <td>Zombie Horror Movie</td>
+        </tr>  
+        <tr id="6998">
+          <td>Satanic Storie</td>
+          <td>Satanic Storie</td>
+        </tr>  
+        <tr id="7077">
+          <td>Independent Movie</td>
+          <td>Independent Movie</td>
+        </tr>  
+        <tr id="11079">
+          <td>Experimental Movie</td>
+          <td>Experimental Movie</td>
+        </tr>  
+        <tr id="11804">
+          <td>Independent Action & Adventur</td>
+          <td>Independent Action & Adventur</td>
+        </tr>  
+        <tr id="3269">
+          <td>Independent Thriller</td>
+          <td>Independent Thriller</td>
+        </tr>  
+        <tr id="9916">
+          <td>Romantic Independent Movie</td>
+          <td>Romantic Independent Movie</td>
+        </tr>  
+        <tr id="1701">
+          <td>Musi</td>
+          <td>Musi</td>
+        </tr>  
+        <tr id="52843">
+          <td>Kids Musi</td>
+          <td>Kids Musi</td>
+        </tr>  
+        <tr id="1105">
+          <td>Country & Western/Fol</td>
+          <td>Country & Western/Fol</td>
+        </tr>  
+        <tr id="10271">
+          <td>Jazz & Easy Listenin</td>
+          <td>Jazz & Easy Listenin</td>
+        </tr>  
+        <tr id="10741">
+          <td>Latin Musi</td>
+          <td>Latin Musi</td>
+        </tr>  
+        <tr id="9472">
+          <td>Urban & Dance Concert</td>
+          <td>Urban & Dance Concert</td>
+        </tr>  
+        <tr id="2856">
+          <td>World Music Concert</td>
+          <td>World Music Concert</td>
+        </tr>  
+        <tr id="3278">
+          <td>Rock & Pop Concert</td>
+          <td>Rock & Pop Concert</td>
+        </tr>  
+        <tr id="13335">
+          <td>Musical</td>
+          <td>Musical</td>
+        </tr>  
+        <tr id="32392">
+          <td>Classic Musical</td>
+          <td>Classic Musical</td>
+        </tr>  
+        <tr id="59433">
+          <td>Disney Musical</td>
+          <td>Disney Musical</td>
+        </tr>  
+        <tr id="13573">
+          <td>Showbiz Musical</td>
+          <td>Showbiz Musical</td>
+        </tr>  
+        <tr id="55774">
+          <td>Stage Musical</td>
+          <td>Stage Musical</td>
+        </tr>  
+        <tr id="8883">
+          <td>Romantic Movie</td>
+          <td>Romantic Movie</td>
+        </tr>  
+        <tr id="502675">
+          <td>Romantic Favorite</td>
+          <td>Romantic Favorite</td>
+        </tr>  
+        <tr id="36103">
+          <td>Quirky Romanc</td>
+          <td>Quirky Romanc</td>
+        </tr>  
+        <tr id="9916">
+          <td>Romantic Independent Movie</td>
+          <td>Romantic Independent Movie</td>
+        </tr>  
+        <tr id="7153">
+          <td>Romantic Foreign Movie</td>
+          <td>Romantic Foreign Movie</td>
+        </tr>  
+        <tr id="1255">
+          <td>Romantic Drama</td>
+          <td>Romantic Drama</td>
+        </tr>  
+        <tr id="35800">
+          <td>Steamy Romantic Movie</td>
+          <td>Steamy Romantic Movie</td>
+        </tr>  
+        <tr id="31273">
+          <td>Classic Romantic Movie</td>
+          <td>Classic Romantic Movie</td>
+        </tr>  
+        <tr id="5475">
+          <td>Romantic Comedie</td>
+          <td>Romantic Comedie</td>
+        </tr>  
+        <tr id="1492">
+          <td>Sci-Fi & Fantas</td>
+          <td>Sci-Fi & Fantas</td>
+        </tr>  
+        <tr id="1568">
+          <td>Action Sci-Fi & Fantas</td>
+          <td>Action Sci-Fi & Fantas</td>
+        </tr>  
+        <tr id="3327">
+          <td>Alien Sci-F</td>
+          <td>Alien Sci-F</td>
+        </tr>  
+        <tr id="47147">
+          <td>Classic Sci-Fi & Fantas</td>
+          <td>Classic Sci-Fi & Fantas</td>
+        </tr>  
+        <tr id="4734">
+          <td>Cult Sci-Fi & Fantas</td>
+          <td>Cult Sci-Fi & Fantas</td>
+        </tr>  
+        <tr id="9744">
+          <td>Fantasy Movie</td>
+          <td>Fantasy Movie</td>
+        </tr>  
+        <tr id="6926">
+          <td>Sci-Fi Adventur</td>
+          <td>Sci-Fi Adventur</td>
+        </tr>  
+        <tr id="3916">
+          <td>Sci-Fi Drama</td>
+          <td>Sci-Fi Drama</td>
+        </tr>  
+        <tr id="1694">
+          <td>Sci-Fi Horror Movie</td>
+          <td>Sci-Fi Horror Movie</td>
+        </tr>  
+        <tr id="11014">
+          <td>Sci-Fi Thriller</td>
+          <td>Sci-Fi Thriller</td>
+        </tr>  
+        <tr id="6485">
+          <td>Foreign Sci-Fi & Fantas</td>
+          <td>Foreign Sci-Fi & Fantas</td>
+        </tr>  
+        <tr id="4370">
+          <td>Sports Movie</td>
+          <td>Sports Movie</td>
+        </tr>  
+        <tr id="5286">
+          <td>Sports Comedie</td>
+          <td>Sports Comedie</td>
+        </tr>  
+        <tr id="180">
+          <td>Sports Documentarie</td>
+          <td>Sports Documentarie</td>
+        </tr>  
+        <tr id="7243">
+          <td>Sports Drama</td>
+          <td>Sports Drama</td>
+        </tr>  
+        <tr id="12339">
+          <td>Baseball Movie</td>
+          <td>Baseball Movie</td>
+        </tr>  
+        <tr id="12803">
+          <td>Football Movie</td>
+          <td>Football Movie</td>
+        </tr>  
+        <tr id="12443">
+          <td>Boxing Movie</td>
+          <td>Boxing Movie</td>
+        </tr>  
+        <tr id="12549">
+          <td>Soccer Movie</td>
+          <td>Soccer Movie</td>
+        </tr>  
+        <tr id="6695">
+          <td>Martial Arts, Boxing & Wrestlin</td>
+          <td>Martial Arts, Boxing & Wrestlin</td>
+        </tr>  
+        <tr id="12762">
+          <td>Basketball Movie</td>
+          <td>Basketball Movie</td>
+        </tr>  
+        <tr id="9327">
+          <td>Sports & Fitnes</td>
+          <td>Sports & Fitnes</td>
+        </tr>  
+        <tr id="8933">
+          <td>Thriller</td>
+          <td>Thriller</td>
+        </tr>  
+        <tr id="43048">
+          <td>Action Thriller</td>
+          <td>Action Thriller</td>
+        </tr>  
+        <tr id="46588">
+          <td>Classic Thriller</td>
+          <td>Classic Thriller</td>
+        </tr>  
+        <tr id="10499">
+          <td>Crime Thriller</td>
+          <td>Crime Thriller</td>
+        </tr>  
+        <tr id="10306">
+          <td>Foreign Thriller</td>
+          <td>Foreign Thriller</td>
+        </tr>  
+        <tr id="3269">
+          <td>Independent Thriller</td>
+          <td>Independent Thriller</td>
+        </tr>  
+        <tr id="31851">
+          <td>Gangster Movie</td>
+          <td>Gangster Movie</td>
+        </tr>  
+        <tr id="5505">
+          <td>Psychological Thriller</td>
+          <td>Psychological Thriller</td>
+        </tr>  
+        <tr id="10504">
+          <td>Political Thriller</td>
+          <td>Political Thriller</td>
+        </tr>  
+        <tr id="9994">
+          <td>Mysterie</td>
+          <td>Mysterie</td>
+        </tr>  
+        <tr id="11014">
+          <td>Sci-Fi Thriller</td>
+          <td>Sci-Fi Thriller</td>
+        </tr>  
+        <tr id="9147">
+          <td>Spy Thriller</td>
+          <td>Spy Thriller</td>
+        </tr>  
+        <tr id="972">
+          <td>Steamy Thriller</td>
+          <td>Steamy Thriller</td>
+        </tr>  
+        <tr id="11140">
+          <td>Supernatural Thriller</td>
+          <td>Supernatural Thriller</td>
+        </tr>  
+        <tr id="83">
+          <td>TV Show</td>
+          <td>TV Show</td>
+        </tr>  
+        <tr id="52117">
+          <td>British TV Show</td>
+          <td>British TV Show</td>
+        </tr>  
+        <tr id="46553">
+          <td>Classic TV Show</td>
+          <td>Classic TV Show</td>
+        </tr>  
+        <tr id="26146">
+          <td>Crime TV Show</td>
+          <td>Crime TV Show</td>
+        </tr>  
+        <tr id="74652">
+          <td>Cult TV Show</td>
+          <td>Cult TV Show</td>
+        </tr>  
+        <tr id="72436">
+          <td>Food & Travel T</td>
+          <td>Food & Travel T</td>
+        </tr>  
+        <tr id="27346">
+          <td>Kids’ T</td>
+          <td>Kids’ T</td>
+        </tr>  
+        <tr id="67879">
+          <td>Korean TV Show</td>
+          <td>Korean TV Show</td>
+        </tr>  
+        <tr id="4814">
+          <td>Miniserie</td>
+          <td>Miniserie</td>
+        </tr>  
+        <tr id="25804">
+          <td>Military TV Show</td>
+          <td>Military TV Show</td>
+        </tr>  
+        <tr id="52780">
+          <td>Science & Nature T</td>
+          <td>Science & Nature T</td>
+        </tr>  
+        <tr id="10673">
+          <td>TV Action & Adventur</td>
+          <td>TV Action & Adventur</td>
+        </tr>  
+        <tr id="10375">
+          <td>TV Comedie</td>
+          <td>TV Comedie</td>
+        </tr>  
+        <tr id="10105">
+          <td>TV Documentarie</td>
+          <td>TV Documentarie</td>
+        </tr>  
+        <tr id="11714">
+          <td>TV Drama</td>
+          <td>TV Drama</td>
+        </tr>  
+        <tr id="83059">
+          <td>TV Horro</td>
+          <td>TV Horro</td>
+        </tr>  
+        <tr id="4366">
+          <td>TV Mysterie</td>
+          <td>TV Mysterie</td>
+        </tr>  
+        <tr id="1372">
+          <td>TV Sci-Fi & Fantas</td>
+          <td>TV Sci-Fi & Fantas</td>
+        </tr>  
+        <tr id="9833">
+          <td>Reality T</td>
+          <td>Reality T</td>
+        </tr>  
+        <tr id="60951">
+          <td>Teen TV Show</td>
+          <td>Teen TV Show</td>
+        </tr>
+      </table>
+    </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var endpoint = "http://www.netflix.com/browse/genre/";
+        var onRowClick = function(selector) {
+          $(selector).mousedown(function(event) {
+            var id = $(this).prop("id")
+            console.log(id);
+            var url = endpoint + id
+            window.open(url, '_blank');
+          });
+        };
+        onRowClick('tr');
+      });
+    </script>
+  </body>
+</html>
